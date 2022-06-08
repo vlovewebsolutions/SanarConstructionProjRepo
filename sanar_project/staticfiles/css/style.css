@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-custom-nav-color {
+    background-color: #2C4361;
+}
+
+nav .navbar-nav li a {
+  color: #efce03 !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5vw;
+}
+
+.navbar .dropdown-menu {
+  background-color: #2C4361;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.icons-nav {
+    color: #efce03;
+    cursor: pointer;
+}
+
+.phone-span {
+    color: #efce03;
+    font-size: 1.5vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.slides-text {
+    color: #efce03;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about-us-text {
+  color: #2C4361;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 0.7px;
+  font-size: 1.3vw;
+}
+
+.container-services {
+    background-color: #AFC4DF;
+}
+
+p.card-text {
+    color:  #2C4361;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3.heading-ad-para {
+    color: #2C4361;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ads-paragraph {
+    color: #2C4361;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.7px;
+    font-size: 1.3vw;
+}
+
+.focus-on {
+    background-color: #AFC4DF;
+}
+
+ul.footer-item-list {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li.footer-item {
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a.footer-link {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a.footer-link:hover {
+    text-decoration: none;
+    list-style-type: none;
+    color: #efce03;
+}
+
+.footer-bottom-line {
+    background-color: #efce03;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.company-intro {
+    color: #efce03;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3.service-heading {
+    color:  #2C4361;
+}
+
+.footer-span {
+    font-size: 1vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
