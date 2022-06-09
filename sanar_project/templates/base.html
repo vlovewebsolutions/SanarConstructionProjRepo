@@ -26,7 +26,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-custom-nav-color">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{% url 'index' %}">
           <img
             src="{% static 'images/sanar_logo_3d.png' %}"
             class="img-fluid"
@@ -43,26 +43,52 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"
+            ><i
+              class="fa fa-navicon"
+              style="color: #efce03; font-size: 28px"
+            ></i
+          ></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul
             class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
+            style="--bs-scroll-height: 200px"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{% url 'index' %}">HOME</a>
+              <a
+                class="nav-link active"
+                style="font-size: 3.7vmin"
+                aria-current="page"
+                href="{% url 'index' %}"
+                >HOME</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'aboutus' %}">ABOUT US</a>
+              <a
+                class="nav-link"
+                style="font-size: 3.7vmin"
+                href="{% url 'aboutus' %}"
+                >ABOUT US</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'services' %}" tabindex="-1" aria-disabled="true"
+              <a
+                class="nav-link"
+                style="font-size: 3.7vmin"
+                href="{% url 'services' %}"
+                tabindex="-1"
+                aria-disabled="true"
                 >SERVICES</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'contactus' %}" tabindex="-1" aria-disabled="true"
+              <a
+                class="nav-link"
+                style="font-size: 3.7vmin"
+                href="{% url 'contactus' %}"
+                tabindex="-1"
+                aria-disabled="true"
                 >CONTACT US</a
               >
             </li>
@@ -71,7 +97,9 @@
             <i class="fab fa-facebook-square fa-2x icons-nav me-2"></i>
             <i class="fas fa-envelope-square fa-2x icons-nav me-2"></i>
             <i class="fas fa-phone-square fa-2x icons-nav me-2"></i>
-            <span class="phone-span">+91-9873225108</span>
+            <span class="phone-span" style="font-size: 3.7vmin"
+              >+91-9873225108</span
+            >
           </div>
         </div>
       </div>
@@ -81,8 +109,8 @@
 
     <!-------------------------FOOTER----------------------------------->
     <div class="container-fluid bg-dark text-light">
-      <div class="row p-4 justify-content-start text-start">
-        <div class="col-3">
+      <div class="row p-4 justify-content-center text-center">
+        <div class="col-lg-2 col-md-2 col-sm-12">
           <img
             src="{% static 'images/sanar_logo_3d.png' %}"
             class="img-fluid"
@@ -90,49 +118,77 @@
             alt="LOGO"
           />
         </div>
-        <div class="col-3">
+        <div class="col-lg-2 col-md-2 col-sm-12">
           <ul class="footer-item-list">
             <li class="footer-item">
-              <a href="{% url 'index' %}" class="footer-link"> HOME </a>
+              <a
+                href="{% url 'index' %}"
+                class="footer-link"
+                style="font-size: 3.7vmin"
+              >
+                HOME
+              </a>
             </li>
             <li class="footer-item">
-              <a href="{% url 'aboutus' %}" class="footer-link"> ABOUT US </a>
+              <a
+                href="{% url 'aboutus' %}"
+                class="footer-link"
+                style="font-size: 3.7vmin"
+              >
+                ABOUT US
+              </a>
             </li>
             <li class="footer-item">
-              <a href="{% url 'services' %}" class="footer-link"> SERVICES </a>
+              <a
+                href="{% url 'services' %}"
+                class="footer-link"
+                style="font-size: 3.7vmin"
+              >
+                SERVICES
+              </a>
             </li>
             <li class="footer-item">
-              <a href="{% url 'contactus' %}" class="footer-link"> CONTACT US </a>
+              <a
+                href="{% url 'contactus' %}"
+                class="footer-link"
+                style="font-size: 3.7vmin"
+              >
+                CONTACT US
+              </a>
             </li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-lg-4 col-md-4 col-sm-12">
           <ul class="footer-item-list">
             <li class="footer-item">
+              <a href="https://www.facebook.com/SANAR-Constructions-1043677152462993/" class="footer-link">
+                <i class="fab fa-facebook-square fa-2x icons-nav me-2"></i>
+                <span class="footer-span" style="font-size: 3.7vmin"
+                  >sanar_constructions</span
+                >
+              </a>
+            </li>
+
+            <li class="footer-item">
               <a href="#" class="footer-link">
-                <i class="fab fa-facebook-square fa-2x icons-nav me-2">
-                  <span class="footer-span">sanar_constructions</span>
-                </i>
+                <i class="fas fa-envelope-square fa-2x icons-nav me-2"></i>
+                <span class="footer-span" style="font-size: 3.7vmin">
+                  sanarconstructions@gmail.com
+                </span>
               </a>
             </li>
             <li class="footer-item">
               <a href="#" class="footer-link">
-                <i class="fas fa-envelope-square fa-2x icons-nav me-2">
-                  <span class="footer-span"> vineetmodi1@gmail.com </span>
-                </i>
-              </a>
-            </li>
-            <li class="footer-item">
-              <a href="#" class="footer-link">
-                <i class="fas fa-phone-square fa-2x icons-nav me-2">
-                  <span class="footer-span"> +91-9873225108 </span>
-                </i>
+                <i class="fas fa-phone-square fa-2x icons-nav me-2"></i>
+                <span class="footer-span" style="font-size: 3.7vmin">
+                  +91-9268955386
+                </span>
               </a>
             </li>
           </ul>
         </div>
-        <div class="col-3">
-          <p class="company-intro">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <p class="company-intro" style="font-size: 3.7vmin">
             Sanar construction is leading real estate construction company based
             in Faridabad. We are having more than 20 years of experience in
             construction field.
@@ -140,7 +196,7 @@
         </div>
       </div>
       <div class="row footer-bottom-line p-2">
-        <p class="text-center text-dark">
+        <p class="text-center text-dark" style="font-size: 3.7vmin">
           COPYRIGHT &copy; 2021 SANAR CONSTRUCTIONS
         </p>
       </div>
