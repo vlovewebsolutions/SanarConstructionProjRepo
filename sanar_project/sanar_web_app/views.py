@@ -11,6 +11,9 @@ def services(request):
 
 def aboutus(request):
     return render(request, 'aboutus.html')
+    
+def gallery(request):
+    return render(request, 'gallery.html')
 
 def contactus(request):
     return render(request, 'contactus.html')
